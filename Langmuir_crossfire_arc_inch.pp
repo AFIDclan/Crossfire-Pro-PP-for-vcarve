@@ -10,7 +10,8 @@
 + ======== 		========== 	===========================
 + Mike Hoffman
 + Dick Zimmmerman 
-+ Mohammed Albasri   03/016/2021 	Written and compared output to Fusion 360 post 
++ Mohammed Albasri   03/016/2021 	Written and compared output to Fusion 360 post \
++ Sean Sullivan      05/023/2023   Added THC control
        
 +================================================
 
@@ -95,8 +96,11 @@ begin RAPID_MOVE
 +  Commands output for Plunge Moves
 +---------------------------------------------------
 begin PLUNGE_MOVE
+"G0 Z0.15"
 "M3"
-"G4 P0.6"
+"G4 P0.8"
+"G1 Z0.06 F100.0"
+"H1"
 
 +---------------------------------------------------
 +  Commands output for the first feed rate move
@@ -119,6 +123,7 @@ begin FEED_MOVE
 +  Commands output for Retract Moves
 +---------------------------------------------------
 begin RETRACT_MOVE
+"H0"
 "M5"
 "G0 Z1"
 
