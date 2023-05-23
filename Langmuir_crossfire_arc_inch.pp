@@ -10,7 +10,7 @@
 + ======== 		========== 	===========================
 + Mike Hoffman
 + Dick Zimmmerman 
-+ Mohammed Albasri   03/016/2021 	Written and compared output to Fusion 360 post \
++ Mohammed Albasri   03/016/2021 	Written and compared output to Fusion 360 post
 + Sean Sullivan      05/023/2023   Added THC control
        
 +================================================
